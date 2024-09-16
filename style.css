@@ -1,0 +1,11 @@
+/* style.css */
+.stButton>button {
+    color: white;
+    background-color: #4B8BBE;
+}
+
+.stSlider>div:nth-child(3)>div {
+    background: #4B8BBE;
+}
+
+/* Customize other elements as needed */
