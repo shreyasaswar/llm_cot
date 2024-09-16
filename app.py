@@ -2,6 +2,8 @@ import json
 import streamlit as st
 from openai import OpenAI
 import pandas as pd
+import streamlit.components.v1 as components
+
 
 # Initialize the client with your API key
 client = OpenAI(
