@@ -271,9 +271,8 @@ with left_col:
                     <div class='footer'>
                     Developed by <a href="https://www.linkedin.com/in/shreyasaswar/" target="_blank" style="color: grey;"><strong>Shreyas Aswar</strong></a>
                     </div>
-                    """,
-                    unsafe_allow_html=True
-                )
+                    """                )
+
             except Exception as e:
                 st.error(f"An error occurred: {e}")
     st.markdown("</div>", unsafe_allow_html=True)
