@@ -196,6 +196,19 @@ def set_custom_styles():
             background-color: #1E1E1E;
             color: #FFFFFF;
         }
+
+        /* Footer style */
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #121212;
+            color: grey;
+            text-align: center;
+            padding: 10px 0;
+        }
+
         </style>
         """,
         unsafe_allow_html=True
@@ -250,6 +263,16 @@ with left_col:
                     st.write(f"**Total Score:** {result['total_score']}")
                 else:
                     st.write("No evaluation scores available.")
+
+                # Footer Section
+                st.markdown("<div class='separator'></div>", unsafe_allow_html=True)
+                st.markdown(
+                    """
+                    <div class='footer'>
+                    Developed by <a href="https://www.linkedin.com/in/shreyasaswar/" target="_blank" style="color: grey;"><strong>Shreyas Aswar</strong></a>
+                    </div>
+                    """,
+                    unsafe_allow_html=True
 
             except Exception as e:
                 st.error(f"An error occurred: {e}")
