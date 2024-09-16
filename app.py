@@ -273,7 +273,7 @@ with left_col:
                     </div>
                     """,
                     unsafe_allow_html=True
-
+                )
             except Exception as e:
                 st.error(f"An error occurred: {e}")
     st.markdown("</div>", unsafe_allow_html=True)
