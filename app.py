@@ -302,9 +302,7 @@ with right_col:
     - **Response Evaluation**: Improves answer quality by scoring reasoning.
     """)
 
-    
-    st.markdown("</div>", unsafe_allow_html=True)
-# Footer Section (Place this at the very end of your app.py)
+
 components.html(
     """
     <hr style='border-top: 1px solid #FF6F61; margin-top: 25px; margin-bottom: 10px;'>
