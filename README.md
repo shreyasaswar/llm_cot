@@ -114,15 +114,6 @@ The total score determines the best reasoning path to be presented to the user.
 6. **Analyze**: Review feedback and evaluation scores.
 7. **Refine**: Adjust prompts and evaluation criteria based on insights.
 
-## 🛡️ Ethical Considerations
-
-- Prioritize user privacy and data security.
-- Provide clear disclaimers about the limitations of AI-generated medical advice.
-- Regularly audit the system for biases and inaccuracies.
-
-## 🤝 Contributing
-
-We welcome contributions! Please see our [CONTRIBUTING.md](CONTRIBUTING.md) file for details on submitting pull requests.
 
 ## 📄 License
 
@@ -130,14 +121,8 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## 📬 Contact
 
-For questions or support, please contact [Your Email] or open an issue on GitHub.
+For questions or support, please contact shreyas.aswar21@gmail.com or open an issue on GitHub.
 
-## 🙏 Acknowledgments
 
-- OpenAI for their groundbreaking work on LLMs
-- The Streamlit team for their excellent app framework
-- All contributors and users who help improve this project
-
----
 
 **Disclaimer**: This application is for informational purposes only and should not be used as a substitute for professional medical advice, diagnosis, or treatment.
